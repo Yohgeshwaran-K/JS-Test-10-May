@@ -1,0 +1,52 @@
+body {
+    background-color: aliceblue;
+    margin-top: 17%;
+    margin-left: 30%;
+}
+
+.container {
+    background-color:white;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
+    height: 30vh;
+    width: 70vh;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    height: 15%;
+    width: 65%;
+}
+
+::placeholder  {
+    padding-left: 30px;
+}
+
+.indicators {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.one {
+    background-color: red;
+    height: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.two {
+    background-color: yellow;
+    height: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.three {
+    background-color: green;
+    height: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
